@@ -1,0 +1,50 @@
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 150px;
+    width: 80%;
+  
+  }
+
+
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0e215c;
+    color: white;
+  }
+
+  .editt{
+      color: white;
+      background-color: green;
+      border: none;
+      width: 50px;
+      height: 25px;
+      border-radius: 4px;
+  }
+  .editt:hover{
+    background-color: rgb(15, 187, 15);
+  }
+  .deletee{
+      color: rgb(255, 255, 255);
+      background-color: red;
+      border: none;
+      width: 50px;
+      height: 25px;
+      border-radius: 4px;
+  }
+
+  .deletee:hover{
+    background-color: rgb(235, 79, 79);
+  }

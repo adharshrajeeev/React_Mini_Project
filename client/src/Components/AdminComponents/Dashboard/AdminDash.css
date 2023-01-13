@@ -1,0 +1,27 @@
+.adminHomePage1{
+    height: 580px;
+    width: 100%;
+}
+
+
+.homeHeader1{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 45%;
+    font-size: 80px;
+    top: 40%;
+    color: white;
+
+}
+
+.homeName2{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    border-radius: 12px;
+    left: 75%;
+    font-size: 35px;
+    top: 47%;
+    color: rgb(4, 1, 1);
+}

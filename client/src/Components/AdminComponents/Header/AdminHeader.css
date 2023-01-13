@@ -1,0 +1,13 @@
+.adminHeadernav{
+  background-color: #030712;
+}
+
+.adminLogoutBtn{
+  border-radius: 5px;
+  border: 1px #1864ab solid;
+  margin-top: 15px;
+  width: 70px;
+  height: 35px;
+ background-color: transparent;
+  color: white;
+}

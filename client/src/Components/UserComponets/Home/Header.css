@@ -1,0 +1,20 @@
+.navUserName{
+        margin-top: 18px;
+        margin-right: 20px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+}
+
+.userLogoutButton{
+    border-radius: 5px;
+    border: 1px #1864ab solid;
+    margin-top: 15px;
+    width: 70px;
+    height: 35px;
+   background-color: transparent;
+    color: white;
+}
+
+.userLogo{
+    border-radius: 15px;
+}

@@ -1,0 +1,43 @@
+
+.updateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+  }
+  
+  .container1 h1, p {
+    text-align: center;
+  }
+  
+  /* desired spacing for input fields */
+   .container1 input {
+    margin: 0.25em 0em 1em 0em;
+    outline: none;
+    padding: 0.5em;
+    border: none;
+    background-color: rgb(225, 225, 225);
+    border-radius: 0.25em;
+    color: black;
+  }
+
+  /* styles for button */
+ .container1 button {
+    padding: 0.75em;
+    border: none;
+    outline: none;
+    background-color: rgb(68, 18, 232);
+    color: white;
+    border-radius: 0.25em;
+  }
+  
+  /* hover functionality for button */
+  .container1 button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
+  }
