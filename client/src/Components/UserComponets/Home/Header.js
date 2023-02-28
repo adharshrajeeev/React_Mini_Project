@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Header.css';
 import axios from '../../../utils/axios'
 import Swal from 'sweetalert2';
@@ -62,14 +62,17 @@ function Header() {
     return (
         <nav class="navbar navbar-expand-lg  " style={{background:'#0d1116'}} >
             <div class="container-fluid">
-
-                <a class="navbar-brand" href="/home" style={{color:'white'}}>
+                <Link to={"/home"}>
+                <a className="navbar-brand" style={{color:'white'}}>
                    <img src={userImage} className='userLogo' style={{width:'30px'}}/>
                 </a>
+                </Link>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/Profile" style={{color:'white'}}>My Profile</a>
+                            <Link to={"/Profile"}>
+                            <h6 class="nav-link active" aria-current="page" style={{color:'white'}}>My Profile</h6>
+                            </Link>
                         </li>
                     </ul>
                     <form class="d-flex">
